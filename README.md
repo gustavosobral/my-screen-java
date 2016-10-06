@@ -13,11 +13,11 @@ To run this project you need to have:
 ### Building
 
 ```
-$ mvn package
+$ mvn clean package assembly:single
 ```
 
 ### Running
 
 ```
-$ java -cp target/my-screen-terminal-<version>.jar com.myscreen.terminal.MyScreenTerminal
+$ java -cp target/my-screen-terminal-<version>-jar-with-dependencies.jar com.myscreen.terminal.MyScreenTerminal
 ```
