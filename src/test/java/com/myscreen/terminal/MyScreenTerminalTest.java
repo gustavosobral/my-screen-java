@@ -8,6 +8,6 @@ public class MyScreenTerminalTest extends TestCase {
 
   public void testApp() {
     MyScreenTerminal app = new MyScreenTerminal();
-    assertTrue( true );
+    assertTrue(true);
   }
 }
